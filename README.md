@@ -1,5 +1,9 @@
 # Plate
 
+[![CI](https://github.com/AdmcCarthy/kit-plate/actions/workflows/ci.yml/badge.svg)](https://github.com/AdmcCarthy/kit-plate/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-%E2%89%A53.12-lightgrey)
+[![Licence](https://img.shields.io/badge/licence-MIT%20with%20acknowledgement-lightgrey)](LICENSE)
+
 Print-grade data visualisation plates from [SubScout](https://github.com/AdmcCarthy/core-subscout) stories: real paper sizes
 (A4 to A0), vector PDF with live text and embedded fonts, PNG at a stated dpi, and consistent furniture (title, legend
 slot, source / units / confidence strip, notes, declared exceptions). Static by design.
