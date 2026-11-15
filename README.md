@@ -1,6 +1,6 @@
 # Plate
 
-Print-grade data visualisation plates from [SubScout](https://github.com/AdmcCarthy/kit-subscout) stories: real paper sizes
+Print-grade data visualisation plates from [SubScout](https://github.com/AdmcCarthy/core-subscout) stories: real paper sizes
 (A4 to A0), vector PDF with live text and embedded fonts, PNG at a stated dpi, and consistent furniture (title, legend
 slot, source / units / confidence strip, notes, declared exceptions). Static by design.
 
