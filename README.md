@@ -1,6 +1,6 @@
 # Plate
 
-Print-grade data visualisation plates from [SubScout](https://github.com/AdmcCarthy/SubScout) stories: real paper sizes
+Print-grade data visualisation plates from [SubScout](https://github.com/AdmcCarthy/kit-subscout) stories: real paper sizes
 (A4 to A0), vector PDF with live text and embedded fonts, PNG at a stated dpi, and consistent furniture (title, legend
 slot, source / units / confidence strip, notes, declared exceptions). Static by design.
 
@@ -29,5 +29,5 @@ See `styleguide/print.md`. Part of a set: SubScout (stories) -> Plate (plates) -
 ## Licence and acknowledgement
 
 MIT License with Acknowledgement ([LICENSE](LICENSE)): the MIT terms plus one condition. Anything built with this work says so,
-visibly and in plain words, and does not imply endorsement: "Built with Plate by Adam McCarthy (https://github.com/AdmcCarthy/Plate)". The wording is custom, so
+visibly and in plain words, and does not imply endorsement: "Built with Plate by Adam McCarthy (https://github.com/AdmcCarthy/kit-plate)". The wording is custom, so
 the licence is not OSI-approved. Third-party data and vendored code keep their own terms.
