@@ -99,7 +99,7 @@ def write_plate_page(work: Path, fig_id: str, contract: dict, plate: dict, story
     facts = [(k, v) for k, v in payload["facts"]]
     facts.append(("Plate", f"{dt.date.today().isoformat()} · {story_rev}"))
     payload["plate"] = plate
-    env = jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATES), autoescape=False)
+    env = jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATES), autoescape=False)  # nosec B701: static pages from the author's own templates and data; the fragments are HTML already
     page = env.get_template("plate.html.j2").render(
         fm=fm,
         spec=spec,
